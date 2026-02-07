@@ -14,4 +14,4 @@ echo "sum is : $sum"
 leaders=("kavya" "prema" "shekhar")
 
 echo "all leaders : ${leaders[@]}"
-echo "first leader : ${leader[0]}"
+echo "first leader : ${leaders[0]}"
