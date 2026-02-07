@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+#arguments passing code 
 PERSON1=$1
 PERSON2=$2
 echo "$PERSON1 :: hai $PERSON2 how are you "
