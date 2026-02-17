@@ -25,11 +25,11 @@ else
   echo "Installing nginx is success"
 fi
 
-dnf install mangodb-mongosh -y
+dnf install python3 -y
 
 if [ $? -ne 0 ]; then
-  echo "ERROR: : installing mangodb-mongosh is failure"
+  echo "ERROR: : installing python3 is failure"
   exit 1
 else
-  echo "Installing mangodb-mongosh is success"
+  echo "Installing python3 is success"
 fi
