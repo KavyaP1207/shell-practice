@@ -22,7 +22,11 @@ if [ ! -d $SOURCE_DIR ]; then
 fi
 FILES_TO_DELETE=$(find . -name "*.log" -type f -mtime +14)
 
+while IFS= read -r filepath
 
+do 
+  echo "deleting the file $filepath"
+done <<< $FILES_TO_DELETE
 
 
 
